@@ -1,5 +1,5 @@
 /*!
- * Materialize v0.97.7 (http://materializecss.com)
+ * Materialize vundefined (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
@@ -2781,7 +2781,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .pagination {
     width: 100%;
   }
@@ -2882,67 +2882,67 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 641px) {
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   .show-on-large {
     display: block !important;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
   .show-on-medium {
     display: block !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .show-on-small {
     display: block !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 641px) {
   .show-on-medium-and-up {
     display: block !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .show-on-medium-and-down {
     display: block !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .center-on-small-only {
     text-align: center;
   }
@@ -3008,7 +3008,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -3414,13 +3414,13 @@ input[type=range] + .thumb {
   width: 90%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 641px) {
   .container {
     width: 85%;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   .container {
     width: 70%;
   }
@@ -3699,7 +3699,7 @@ input[type=range] + .thumb {
   left: 100%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 641px) {
   .row .col.m1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -3882,7 +3882,7 @@ input[type=range] + .thumb {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   .row .col.l1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -4091,7 +4091,7 @@ nav .nav-wrapper {
   height: 100%;
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   nav a.button-collapse {
     display: none;
   }
@@ -4125,7 +4125,7 @@ nav .brand-logo.center {
           transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   nav .brand-logo {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -4244,7 +4244,7 @@ nav .input-field label.active {
   position: fixed;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 641px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
@@ -4306,7 +4306,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   html {
     font-size: 14.5px;
   }
@@ -4393,121 +4393,121 @@ small {
   }
 }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 388px) {
   .flow-text {
     font-size: 1.224rem;
   }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 416px) {
   .flow-text {
     font-size: 1.248rem;
   }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 444px) {
   .flow-text {
     font-size: 1.272rem;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 472px) {
   .flow-text {
     font-size: 1.296rem;
   }
 }
 
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 500px) {
   .flow-text {
     font-size: 1.32rem;
   }
 }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 528px) {
   .flow-text {
     font-size: 1.344rem;
   }
 }
 
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 556px) {
   .flow-text {
     font-size: 1.368rem;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 584px) {
   .flow-text {
     font-size: 1.392rem;
   }
 }
 
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width: 612px) {
   .flow-text {
     font-size: 1.416rem;
   }
 }
 
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 640px) {
   .flow-text {
     font-size: 1.44rem;
   }
 }
 
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 668px) {
   .flow-text {
     font-size: 1.464rem;
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 696px) {
   .flow-text {
     font-size: 1.488rem;
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 724px) {
   .flow-text {
     font-size: 1.512rem;
   }
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 752px) {
   .flow-text {
     font-size: 1.536rem;
   }
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 780px) {
   .flow-text {
     font-size: 1.56rem;
   }
 }
 
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 808px) {
   .flow-text {
     font-size: 1.584rem;
   }
 }
 
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 836px) {
   .flow-text {
     font-size: 1.608rem;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 864px) {
   .flow-text {
     font-size: 1.632rem;
   }
 }
 
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 892px) {
   .flow-text {
     font-size: 1.656rem;
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 920px) {
   .flow-text {
     font-size: 1.68rem;
   }
@@ -4678,14 +4678,14 @@ small {
   padding: 20px;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
 }
 
@@ -4712,14 +4712,14 @@ small {
   z-index: 10000;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   #toast-container {
     min-width: 100%;
     bottom: 0%;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
   #toast-container {
     left: 5%;
     bottom: 7%;
@@ -4727,7 +4727,7 @@ small {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   #toast-container {
     top: 10%;
     right: 7%;
@@ -4772,20 +4772,20 @@ small {
   border-radius: 24px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .toast {
     width: 100%;
     border-radius: 0;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
   .toast {
     float: left;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
   .toast {
     float: right;
   }
@@ -4806,7 +4806,6 @@ small {
 }
 
 .tabs .tab {
-  -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -5295,7 +5294,7 @@ button.btn-floating {
   will-change: top, opacity;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .modal {
     width: 80%;
   }
@@ -5952,14 +5951,14 @@ textarea.materialize-textarea + label:after {
   margin-left: 3rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .input-field .prefix ~ input {
     width: 80%;
     width: calc(100% - 3rem);
@@ -6821,8 +6820,7 @@ input[type=range]:focus::-ms-fill-upper {
           backface-visibility: hidden;
   overflow-y: auto;
   will-change: transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateX(-105%);
           transform: translateX(-105%);
 }
@@ -6986,7 +6984,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .side-nav.fixed {
     -webkit-transform: translateX(-105%);
             transform: translateX(-105%);
